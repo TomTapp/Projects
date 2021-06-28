@@ -1,0 +1,12 @@
+body {
+background-color: rgb(219, 211, 201);
+}
+
+h1 {
+    color:rgb(107, 45, 45);
+    text-align: center;
+}
+
+.firstMod   {
+    text-align: right;
+}

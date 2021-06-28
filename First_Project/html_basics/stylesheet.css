@@ -1,0 +1,67 @@
+h1 {
+  color: #6200ff;
+  font-size: 50px;
+}
+p {
+}
+
+.blue {
+  color: blue;
+  text-align: left;
+}
+
+/*
+This is how you comment in .css
+*/
+
+#green {
+  color: green;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 48px;
+  padding: 16px;
+}
+div p {
+  color: blue;
+}
+
+Body {
+  background-color: rgb(215, 223, 213);
+}
+#box {
+  font-size: 20px;
+  background-color: rgb(170, 151, 122);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  margin-left: 800px;
+  margin-right: 400px;
+}
+
+.margins {
+  background-color: rgb(165, 197, 186);
+  margin: 200px;
+  padding: 40px;
+  border-style: solid;
+  border-radius: 15px 50px 50px 15px;
+}
