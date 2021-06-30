@@ -14,13 +14,13 @@ in the same row such as border: double 8px rgb(36, 23, 23);
 */
 
 h1 {
-  color: rgb(43, 102, 36);
+  color: rgb(30, 73, 26);
   text-align: left;
   background-color: rgb(238, 245, 216);
   border-style: solid;
-  border-radius: 15px 45px 45px 15px;
-  border-color: rgb(0, 0, 0);
-  border-width: 8px;
+  border-radius: 20px 20px 20px 20px;
+  border-color: rgb(30, 73, 26);
+  border-width: 5px;
   padding: 20px 20px 20px 20px;
   margin: 20px 20px 0px 0px;
   display: inline-flex;
