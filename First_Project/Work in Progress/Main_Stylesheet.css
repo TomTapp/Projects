@@ -19,7 +19,7 @@ nav > span {
   background-color: #ff4800;
   padding: 30px 30px 30px 30px;
 }
-#search_logo {
+.search_logo {
   background-color: #00b7ff;
   filter: invert(1);
   border-style: none;
@@ -89,3 +89,58 @@ nav > span {
   grid-row-start: 1;
   grid-row-end: 1;
 }
+
+/* this is all a text for the searchbar functionality */
+
+
+
+
+.testSearchbar {
+  max-width: 400px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  
+  padding: 5px;
+  font-size: 17px;
+  border: solid black 2px;
+  float: left;
+  width: 85%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: right;
+  width: 10%;
+  padding: 5px;
+  border: solid rgb(255, 255, 255) 2px;
+  background: #00b7ff;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #38c7ff;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
+
+
+
