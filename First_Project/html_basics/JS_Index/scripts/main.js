@@ -137,3 +137,33 @@ switch (switchVariable) {
         console.log("No cases were matched.");
 }
 
+
+
+// Cups of coffee
+
+let a = 1;
+
+if (a < 3 ) {
+console.log("Yes i'll take another cup of coffee.");
+} else {
+  console.log("I think i'm okay for now.");  
+}
+
+// Oil Change
+
+let b = 1;
+
+if (a > 500 ) {
+  console.log("Yes I think I need an oil change.");
+  } else {
+    console.log("My car doesn't need an oil change yet.");  
+  }
+
+
+
+  let myArray = ["What is the meaning of life?", "The meaning of life is", 42];
+
+  for (let i = 0; i<=myArray.length; i++)
+  {
+      console.log(myArray[i]);
+  }
