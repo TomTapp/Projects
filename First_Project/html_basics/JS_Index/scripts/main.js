@@ -167,3 +167,24 @@ if (a > 500 ) {
   {
       console.log(myArray[i]);
   }
+
+
+ for (var a=0; a<100; a++) {
+  if (a === 0) {
+    console.log( );
+  }
+
+ }
+
+
+  for (var a=0; a<100; a++) {
+    if (a === 0) {
+            console.log(a +  " is even");
+    }
+    else if (x % 2 === 0) {
+            console.log(a + " is even");   
+    }
+    else {
+            console.log(a + " is odd");
+    }
+}
