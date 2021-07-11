@@ -66,12 +66,21 @@ form {
   padding: 0px;
 }
 
-#frontpage_carousel  {
-    position: absolute;
-    z-index: 20;
-    padding: 40% 30%;
-    
-    text-align: center;
-    color: white;
+#frontpage_carousel {
+  position:absolute;
+  z-index: 20;
+  padding: 50% 20%;
 
+  text-align: center;
+  color: white;
 }
+
+#frontPageCarouselButtons {
+  background-color: rgb(197, 43, 43);
+  padding: 10px 10px;
+  border:none;
+  border-radius: 2px;
+  margin: 10px 12px;
+  font-size: smaller;
+}
+
