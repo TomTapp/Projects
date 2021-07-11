@@ -10,17 +10,136 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="pageCopyStyleSheet.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>eatatco</title>
   </head>
   <body>
     <!-- HEADER -->
     <!-- need to add header that sits on top of imagine carousel -->
 
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: black; color: white;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="logo.png" width="100" height="42"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-end me-3"
+          id="navbarToggler"
+        >
+          <ul class="navbar-nav dropdown me-3">
+            <li
+              class="nav-item dropdown nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+            >
+              LOCATIONS & MENUS
+            </li>
+            <ul class="dropdown-menu" style="background-color: rgb(197, 43, 43);">
+              <li><a class="dropdown-item" href="#">OVERVIEW</a></li>
+              <li><a class="dropdown-item" href="#">ATLANTA</a></li>
+              <li><a class="dropdown-item" href="#">CHARLESTON</a></li>
+              <li><a class="dropdown-item" href="#">CHARLOTTE - WAVERLY</a></li>
+              <li>
+                <a class="dropdown-item" href="#">CHARLOTTE - PARK ROAD</a>
+              </li>
+              <li><a class="dropdown-item" href="#">MYRTLE BEACH</a></li>
+              <li><a class="dropdown-item" href="#">RALEIGH</a></li>
+              <li><a class="dropdown-item" href="#">SAVANNAH</a></li>
+            </ul>
+            <li>
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GIFT CARDS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRESS</a>
+            </li>
+          </ul>
+          <button class="btn btn-danger" type="submit">ORDER ONLINE</button>
+        </div>
+      </div>
+    </nav>
+
+
+
+
     <!-- MAIN IMAGE CAROUSEL -->
     <!-- still need to get a fixed height and a responsive length -->
 
     <div>
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div id="frontpage_carousel">
+            <h4 style="font-weight: bold">
+              A MODERN TAKE ON TRADITIONAL SOUTHEAST ASIAN CUISINE
+            </h4>
+            <h6
+              style="font-weight: bold; text-align: center; padding-top: 20px"
+            >
+              Pho | Ramen | Dumplings | Banh Mi | Sushi | Cocktails
+            </h6>
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="restaurant.jpg"
+              class="d-block w-100"
+              alt="placeholder image"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="restaurant2.jpg"
+              class="d-block w-100"
+              alt="placeholder image"
+            />
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- old carousel just in case I need it -->
+
+    <!-- <div>
       <div
         id="carouselExampleFade"
         class="carousel slide carousel-fade"
@@ -70,6 +189,8 @@
         </button>
       </div>
     </div>
+ -->
+
     <!-- TAG LINE AND LOCATION OPTIONS -->
     <!-- need to add the central tagline, core menu options, and the buttons to link to each location-->
 
@@ -183,10 +304,18 @@
         <div class="container">
           <div class="row">
             <div class="col-auto">
-              <a href="pageCopy.html" style="color: white; text-decoration: none">STORE</a>
+              <a
+                href="pageCopy.html"
+                style="color: white; text-decoration: none"
+                >STORE</a
+              >
             </div>
             <div class="col-auto">
-              <a href="pageCopyJobs.html" style="color: white; text-decoration: none">JOBS</a>
+              <a
+                href="pageCopyJobs.html"
+                style="color: white; text-decoration: none"
+                >JOBS</a
+              >
             </div>
             <div class="col-auto">
               <a href="#" style="color: white; text-decoration: none"
@@ -194,7 +323,9 @@
               >
             </div>
             <div class="col-auto">
-              <a href="pageCopyRewardsProgram.html" style="color: white; text-decoration: none"
+              <a
+                href="pageCopyRewardsProgram.html"
+                style="color: white; text-decoration: none"
                 >REWARDS PROGRAM</a
               >
             </div>
